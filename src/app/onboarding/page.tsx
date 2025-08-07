@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Onboarding() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
@@ -13,12 +15,12 @@ export default function Onboarding() {
             This proves your live app can handle multiple pages and is ready for the full MVP features.
           </p>
           <div className="text-center">
-            <a 
+            <Link 
               href="/"
               className="text-blue-600 hover:text-blue-800 font-medium"
             >
               ← Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </div>
