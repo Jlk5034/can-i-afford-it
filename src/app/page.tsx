@@ -18,7 +18,7 @@ export default function Home() {
               href="/onboarding"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-4 rounded-xl text-lg transition-colors"
             >
-              Get Started - It's Free
+              Get Started - It&apos;s Free
             </Link>
             
             <div className="flex items-center justify-center space-x-6 text-sm text-gray-500">
