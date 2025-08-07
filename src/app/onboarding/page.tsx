@@ -225,10 +225,10 @@ export default function OnboardingQuiz() {
                     type="number"
                     placeholder="$0"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
-                    onChange={(e) => updateData('savingsGoal', {
-                      ...data.savingsGoal,
-                      amount: parseFloat(e.target.value) || 0
-                    })}
+                   onChange={(e) => updateData('savingsGoal', {
+  type: data.savingsGoal?.type || '',
+  amount: parseFloat(e.target.value) || 0
+})}
                   />
                 </div>
               )}
