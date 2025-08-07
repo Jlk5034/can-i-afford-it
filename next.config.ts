@@ -1,7 +1,12 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  experimental: {
+    appDir: true,
+  },
+  images: {
+    domains: ['via.placeholder.com'],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
