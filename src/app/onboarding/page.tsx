@@ -36,7 +36,7 @@ export default function OnboardingQuiz() {
     if (step > 1) setStep(step - 1);
   };
   
-  const updateData = (field: string, value: any) => {
+  const updateData = (field: string, value: string | number | { name: string; amount: number }[] | { type: string; amount: number }) => {
     setData(prev => ({ ...prev, [field]: value }));
   };
 
